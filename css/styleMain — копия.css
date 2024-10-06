@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "Poiret One";
+  src: url("/res/fonts/Poiret One.ttf");
+}
+
+@font-face {
+  font-family: "Lato Light";
+  src: url("/res/fonts/Lato Light.ttf");
+}
+
+.header{  
+	background: url("/res/fone.jpg");
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	display: flex;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 100%;
+}
+
+body {
+	background-color: white;
+	height: 100%; 
+	margin: 0;
+	padding: 0;
+}
+.wrapperOther {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  min-height: calc(100% - 100px);
+}
+
+
+a:visited {
+  color: #63230c;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #c0d12c;
+}
+
+.content {
+    padding:15px;
+	width: 100%-15px;
+	margin: 0;
+}
+
+.content > img {
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+  border: 7px inset #216363;
+}
+
+.content > span {
+  margin: 20px;
+  display: block;
+  line-height: 20px;
+  font-size: 16;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+.content > img:hover {
+  transform: scale(1.15);
+  transition: 1s;
+}
+
+.sidemenu {
+  background: #f2f2eb;
+}
+
+.sidemenu > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidemenu li {
+  display: block;
+  padding: 5px;
+  font-size: 20;
+  border-bottom: 1px solid #6C8CD5;
+  text-align: center;
+  margin: 5px;
+  font-family: "Poiret One";
+}*/
+
+.sidemenu li:hover {
+  background: #ffffff;
+}
+.sidemenu li:hover > a {
+  color: darkblue;
+}
+
+.menu-item {
+  font-family: "Poiret One";
+  width:20%;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.menu-item:hover {
+  right: 0.7s;
+  height: 100%;
+  background: #f2f2eb;
+}
+
+.menu-item:hover > a {
+  color:black;
+  font-weight: bold;
+}
+
+h1, h3 {
+  text-transform: uppercase;
+  font-family: "Poiret One";
+}
+
+h4 > p{	
+	margin:0;
+	padding:10px;
+}
+
+article, .subarticle {
+  font-family: "Lato Light";
+  display: block;
+  min-height: 14em;
+  text-align: justify;
+}
+
+article > p {
+  text-indent: 40px;
+  margin: 0;
+}
+
+article > h3 {
+  text-decoration: underline;
+}
+
+article img {
+  box-shadow: 5px 5px 5px gray;
+  height: 12em;
+}
+
+article .left-pic {
+  float: left;
+   margin-right: 20px;
+}
+
+article .right-pic {
+  float: right;
+   margin-left: 20px;
+}
+article .center-pic {
+    display:block;
+	height: 17em;
+	margin: 30px auto;
+}
+article > .center-pic:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+.subarticle {
+  display: block;
+  padding-top: 10px;
+}
+
+h5 { 
+  display: inline;
+  font-size: 16px;
+}
+
+span {
+	margin: 0; 
+	padding: 0;
+}
+
+#inputImage p {
+  margin: 0;
+  padding: 0;
+}

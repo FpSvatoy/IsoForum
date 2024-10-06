@@ -1,0 +1,85 @@
+.wrapperLK {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    min-height: calc(100% - 100px);
+  }
+.wrapperRoleLK{
+    min-height: calc(100% - 100px);
+    text-align: center;
+  }
+  .tableCapability {
+    table-layout: fixed;
+    width: 100%;
+    margin-top:calc(10% - 135px);
+    border-collapse: collapse;
+    border: 3px solid black;
+    display: center;
+  }
+
+    th {
+        text-align: center;
+        padding: 30px;
+        border: 3px solid rgb(0, 0, 0);
+        font-size: 16pt;
+    }
+  
+    td {
+        text-align: center;
+        padding: 20px;
+        border: 1px solid rgb(0, 0, 0);
+        font-size: 14pt;
+    }
+
+    table a {
+        text-decoration: none;
+        color: rgb(65, 36, 231);
+    }
+    table a:hover {
+        text-decoration: none;
+        color: rgb(175, 90, 255);
+    }
+    table a:visited {
+        text-decoration: none;
+        color: rgb(65, 36, 231);
+    }
+    .headTable {
+        background: rgb(255, 194, 124);/* Цвет фона */
+        color: rgb(255, 255, 255); /* Цвет текста */
+    } 
+    .bodyTable tr:nth-child(odd){
+        background: rgb(245, 245, 245);/* Цвет фона */
+        color: rgb(5, 5, 5); /* Цвет текста */
+    }
+    .bodyTable tr:nth-child(even){
+        background: rgb(218, 216, 216);/* Цвет фона */
+        color: rgb(0, 0, 0); /* Цвет текста */
+    }
+    #btnInfoUpdate{
+        text-align: center;
+    }
+    #btnUpdate{
+        width:200px;
+        height:50px;  
+        font-family: "Lato Light";
+        margin-top: 20px;
+    }
+    .contentLK{
+        padding:15px;
+        width: 100%-15px;
+        margin: 0;
+        text-align: center;
+    }
+    .contentLK label {
+        font-family: "Poiret One";
+        color: #000000;
+        font-weight: bold;
+    }
+    .editForm{
+        width: 300px;
+        height: auto;  
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em;
+        border: 1px dashed;
+        border-radius: 1em 1em 1em 1em;
+    }

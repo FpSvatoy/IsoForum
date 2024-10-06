@@ -1,0 +1,49 @@
+.wrapperReg{
+  background-image: url(https://i.imgur.com/zP9hN4f.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  min-height: calc(100% - 100px);
+}
+.reg-container {
+  margin: auto;
+  margin-left: 40%;
+  margin-right: 40%;
+  background-color: #0000008a;
+  box-shadow: 0px 15px 10px 30px #0000008a; 
+  text-align: right;
+}	
+label {
+  font-family: "Poiret One";
+  color: #f2f2eb;
+  font-weight: bold;
+  text-align: center;
+}
+input {
+  margin: 5px;
+}
+
+#btnReg{
+	width:200px;
+	height:50px;  
+  font-family: "Lato Light";
+  margin-top: 20px;
+}
+
+#btnDivReg{
+  text-align: center;
+}
+
+.loginMsg {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  color: rgb(214, 30, 30);
+}	
+a#regRef {
+  text-decoration: none;
+  color: white;
+}
+a#regRef:hover {
+  color: #c0d12c;
+}

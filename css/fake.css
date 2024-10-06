@@ -1,0 +1,83 @@
+.comments {
+    margin: 2.5rem 0.5rem 0.5rem 0.5rem;
+    padding: 2rem 1.5rem;
+    background-color: #f2f2eb;
+    border-radius: 10px;
+  }
+  .single-comment {
+    margin-bottom: 2.5rem;
+  }
+  .comment-author {
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 0.25em 1.5em;
+    width: fit-content;
+    margin-bottom: 0.5rem;
+    border: 1px solid;
+    border-radius: 10px 10px 10px 10px;
+    color: #4e9adf;
+    display: inline-block;
+  }
+  .comment-text {
+    margin: 0.25em 0 0.75em 0;
+  }
+  .comment-reply-button, #comment-form input[type=submit] {
+    padding: 0.5em;
+    transition: 500ms;
+    border-bottom: 1px dashed #fcba03;
+  }
+  .comment-reply-button:hover, #comment-form input[type=submit]:hover {
+    color: #4e9adf;
+    border-color: #4e9adf;
+  }
+  .comment-reply > span {
+    display: inline-block;
+    margin: 0 0.5em;
+    font-style: italic;
+  }
+  
+  .comment-reply > span > a {
+    border-bottom: 2px dotted;
+  }
+  .comments-title {
+    border-bottom: 1px dashed;
+    padding-bottom: 0.5em;
+  }
+  .comments > h3 {
+    margin: 0;
+    display: inline;
+  }
+  .comments > hr {
+    border: none;
+    border-bottom: dashed 1px;
+    margin: 0.5em 0 1em 0;
+  }
+  .comments h3 + a {
+    margin: 0 1em;
+    border-bottom: 1px dashed;
+  }
+#comment-form input, #comment-form textarea {
+  display: block;
+  margin: 0.5em;
+}
+#comment-form input[type=submit] {
+  display: inline-block;
+  padding: 0.5em;
+  background: none;
+  
+  color: #fcba03;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  cursor: pointer;
+}
+#comment-form {
+  padding: 1em;
+  border: 1px dashed;
+  border-radius: 0 1em 1em 1em;
+  display: inline-block;
+}
+#comment-form textarea {
+  min-width: 50vw;
+  min-height: 5em;
+}
